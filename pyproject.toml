@@ -4,10 +4,13 @@ version = "0.1.0"
 description = ""
 authors = ["Maxim <maxim.de.mey@ah.nl>"]
 readme = "README.md"
+packages = [{ include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 pandas = "^3.0.1"
+pytest = "^9.0.2"
+pre-commit = "^4.5.1"
 
 
 [build-system]
